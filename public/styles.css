@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  
 }
 html {
   font-family: "Montserrat", sans-serif;
@@ -14,7 +15,7 @@ header {
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
-  margin: auto -16px;
+  margin: auto;
   padding: 16px 32px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
 }
@@ -113,4 +114,21 @@ form.create-note button {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   cursor: pointer;
   outline: none;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    padding: 10px 20px;
+  }
+
+  .note {
+    width: 100%;
+    margin: 10px;
+    float: none;
+  }
+
+  form.create-note {
+    width: 90%;
+    margin: 20px auto;
+  }
 }
