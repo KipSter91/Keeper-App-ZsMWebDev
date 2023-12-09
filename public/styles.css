@@ -2,7 +2,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  
 }
 html {
   font-family: "Montserrat", sans-serif;
@@ -113,15 +112,15 @@ form.create-note button {
 }
 
 @keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -140,5 +139,4 @@ form.create-note button {
     width: 90%;
     margin: 20px auto;
   }
-
 }

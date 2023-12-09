@@ -1,13 +1,12 @@
 import React from "react";
-import DeleteIcon from '@mui/icons-material/Delete';
-import Fab from '@mui/material/Fab';
-import Zoom from '@mui/material/Zoom';
+import DeleteIcon from "@mui/icons-material/Delete";
+import Fab from "@mui/material/Fab";
+import Zoom from "@mui/material/Zoom";
 
 const Note = (props) => {
-
   const handleClick = () => {
-    props.onDelete(props.id)
-  }
+    props.onDelete(props.id);
+  };
   return (
     <div className="note">
       <h1>{props.title}</h1>
@@ -20,6 +19,6 @@ const Note = (props) => {
       </Zoom>
     </div>
   );
-}
+};
 
 export default Note;
